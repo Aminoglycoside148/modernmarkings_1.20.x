@@ -1,6 +1,7 @@
 package net.aminoglycoside.modernmarkings.block.custom;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
@@ -16,29 +17,39 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
-public class MarkingFloor extends HorizontalDirectionalBlock {
+public class MarkingWall extends HorizontalDirectionalBlock {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
 
 
-    public MarkingFloor(Properties pProperties) {
+    public MarkingWall(Properties pProperties) {
         super(pProperties);
     }
 
 
-    private static final VoxelShape SHAPE = Block.box(0.0, 0.0, 0.0, 16.0, 0.1, 16.0);
+
+    private static final VoxelShape SHAPE_E = Block.box(0.0, 0.0, 0.0, 0.1, 16, 16.0);
+    private static final VoxelShape SHAPE_W = Block.box(15.9, 0.0, 0.0, 16.0, 16, 16.0);
+    private static final VoxelShape SHAPE_N = Block.box(0.0, 0.0, 15.9, 16.0, 16, 16.0);
+    private static final VoxelShape SHAPE_S = Block.box(0.0, 0.0, 0.0, 16.0, 16, 0.1);
+
 
 
     @Override
-    public @NotNull VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        return SHAPE;
+    public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+        Direction direction = state.getValue(FACING);
+        switch (direction) {
+            case NORTH: return SHAPE_N;
+            case SOUTH: return SHAPE_S;
+            case EAST: return SHAPE_E;
+            case WEST: return SHAPE_W;
+            default: return SHAPE_N; // Fallback
+        }
     }
 
 
     @Override
     public @Nullable BlockState getStateForPlacement(BlockPlaceContext pContext) {
         return this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite());
-
-
     }
 
     @Override

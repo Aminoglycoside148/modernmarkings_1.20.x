@@ -45,10 +45,30 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.FLOOR_MARKING_RED_HAZARDLINE.get());
                         pOutput.accept(ModBlocks.FLOOR_MARKING_WHITEBLACK_HAZARDLINE.get());
 
+                    }).build());
 
+    public static final RegistryObject<CreativeModeTab> WALL_MARKING_TAB = CREATIVE_MODE_TABS.register("wall_markings_tab",
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(ModItems.CHALK.get()))
+                    .title(Component.translatable("creativetab.wall_markings"))
+                    .displayItems((pParameters, pOutput) -> {
+                        pOutput.accept(ModItems.CHALK.get());
 
-                    })
-                            .build());
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_0.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_1.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_2.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_3.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_4.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_5.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_6.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_7.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_8.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_9.get());
+
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_NO.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_NUMERO.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_DASH.get());
+                    }).build());
 
 
 

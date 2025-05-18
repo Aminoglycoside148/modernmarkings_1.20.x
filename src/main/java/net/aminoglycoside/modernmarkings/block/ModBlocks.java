@@ -2,6 +2,7 @@ package net.aminoglycoside.modernmarkings.block;
 
 import net.aminoglycoside.modernmarkings.AGSModernMarkingsMod;
 import net.aminoglycoside.modernmarkings.block.custom.MarkingFloor;
+import net.aminoglycoside.modernmarkings.block.custom.MarkingWall;
 import net.aminoglycoside.modernmarkings.item.ModItems;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.BlockItem;
@@ -145,6 +146,73 @@ public class ModBlocks {
                     .noOcclusion()
                     .noCollission()),"tooltip.ags_modernmarkings.floormarking_yellowhazard");
 
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_0 = registerBlock("wall_marking_number_0",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_1 = registerBlock("wall_marking_number_1",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_2 = registerBlock("wall_marking_number_2",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_3 = registerBlock("wall_marking_number_3",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_4 = registerBlock("wall_marking_number_4",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_5 = registerBlock("wall_marking_number_5",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_6 = registerBlock("wall_marking_number_6",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_7 = registerBlock("wall_marking_number_7",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_8 = registerBlock("wall_marking_number_8",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_9 = registerBlock("wall_marking_number_9",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_DASH = registerBlock("wall_marking_number_dash",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_NO = registerBlock("wall_marking_number_no",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_NUMERO = registerBlock("wall_marking_number_numero",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, String tooltipKey) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
@@ -159,6 +227,7 @@ public class ModBlocks {
             public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag flagIn) {
                 tooltip.add(Component.translatable (tooltipKey));
                 super.appendHoverText(stack, level, tooltip, flagIn);
+
             }
         });
     }

@@ -28,9 +28,26 @@
   "block.ags_modernmarkings.floor_marking_noentry": "No Entry Floor Marking",
   "block.ags_modernmarkings.floor_marking_redx": "Red X Floor Marking",
 
+  "block.ags_modernmarkings.wall_marking_number_0": "0 Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_1": "1 Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_2": "2 Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_3": "3 Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_4": "4 Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_5": "5 Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_6": "6 Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_7": "7 Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_8": "8 Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_9": "9 Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_no": "no. Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_numero": "numero Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_dash": "- Wall Marking",
+
+
+
 
 
   "creativetab.floor_markings": "Floor Markings",
+  "creativetab.wall_markings": "Wall Markings",
 
   "tooltip.ags_modernmarkings.floormarkingbasic": "a floor marking",
   "tooltip.ags_modernmarkings.floormarking_redline": "Defects, Scraps, Red tag areas",
@@ -42,7 +59,11 @@
   "tooltip.ags_modernmarkings.floormarking_blackline": "Manufacturing-work in progress",
   "tooltip.ags_modernmarkings.floormarking_yellowhazard": "may be a physical/health hazard",
   "tooltip.ags_modernmarkings.floormarking_redhazard": "keep clear for safety/compliance",
-  "tooltip.ags_modernmarkings.floormarking_whitehazard": "keep clear for operational purposes"
+  "tooltip.ags_modernmarkings.floormarking_whitehazard": "keep clear for operational purposes",
+
+  "tooltip.ags_modernmarkings.wallmarking_basic": "a wall marking"
+
+
 
 
 

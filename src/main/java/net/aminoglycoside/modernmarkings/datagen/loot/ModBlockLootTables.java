@@ -40,6 +40,21 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.FLOOR_MARKING_NOENTRY.get());
         this.dropSelf(ModBlocks.FLOOR_MARKING_REDX.get());
 
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_0.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_1.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_2.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_3.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_4.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_5.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_6.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_7.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_8.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_9.get());
+
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_NO.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_DASH.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_NUMERO.get());
+
 
 
 
