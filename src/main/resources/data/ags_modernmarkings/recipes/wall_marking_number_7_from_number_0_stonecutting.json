@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "ags_modernmarkings:wall_marking_number_0"
+  },
+  "result": "ags_modernmarkings:wall_marking_number_7"
+}

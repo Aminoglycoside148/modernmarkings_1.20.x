@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+
+  "key": {
+    "#": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "pattern": [
+    "  #",
+    "  #",
+    "  #"
+  ],
+  "result": {
+    "item": "ags_modernmarkings:wall_marking_number_0",
+    "count": 32
+  }
+}
