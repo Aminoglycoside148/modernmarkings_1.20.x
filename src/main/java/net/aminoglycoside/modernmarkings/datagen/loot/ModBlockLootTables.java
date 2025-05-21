@@ -40,6 +40,12 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.FLOOR_MARKING_NOENTRY.get());
         this.dropSelf(ModBlocks.FLOOR_MARKING_REDX.get());
 
+        this.dropSelf(ModBlocks.FLOOR_MARKING_EXIT.get());
+        this.dropSelf(ModBlocks.FLOOR_MARKING_DANGER_RED.get());
+        this.dropSelf(ModBlocks.FLOOR_MARKING_DANGER_YELLOW.get());
+        this.dropSelf(ModBlocks.FLOOR_MARKING_YELLOW_LANE.get());
+        this.dropSelf(ModBlocks.FLOOR_MARKING_WHITE_LANE_CROSS.get());
+
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_0.get());
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_1.get());
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_2.get());
@@ -54,6 +60,28 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_NO.get());
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_DASH.get());
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_NUMERO.get());
+
+        this.dropSelf(ModBlocks.WALL_MARKING_ARROWRIGHT.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_ARROWLEFT.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_HAZARDLINE_RIGHT.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_HAZARDLINE_LEFT.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_EXIT.get());
+
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_CHEMICAL.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_ELECTRIC.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_FIRE.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_FLUID.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_FROST.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_GEARS.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_LASER.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_MAGIC.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_MOB.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_PINCH.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_PRODUCTION.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_RADIATION.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_STORAGE.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_WARNING_DANGER.get());
+
 
 
 

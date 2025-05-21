@@ -28,6 +28,13 @@
   "block.ags_modernmarkings.floor_marking_noentry": "No Entry Floor Marking",
   "block.ags_modernmarkings.floor_marking_redx": "Red X Floor Marking",
 
+  "block.ags_modernmarkings.floor_marking_danger_red": "Red Danger Floor Marking",
+  "block.ags_modernmarkings.floor_marking_danger_yellow": "Yellow Danger Floor Marking",
+  "block.ags_modernmarkings.floor_marking_white_lane_cross": "White Lane Cross Floor Marking",
+  "block.ags_modernmarkings.floor_marking_yellow_lane": "Yellow Lane Floor Marking",
+  "block.ags_modernmarkings.floor_marking_exit": "Exit Floor Marking",
+
+
   "block.ags_modernmarkings.wall_marking_number_0": "0 Wall Marking",
   "block.ags_modernmarkings.wall_marking_number_1": "1 Wall Marking",
   "block.ags_modernmarkings.wall_marking_number_2": "2 Wall Marking",
@@ -41,6 +48,29 @@
   "block.ags_modernmarkings.wall_marking_number_no": "no. Wall Marking",
   "block.ags_modernmarkings.wall_marking_number_numero": "numero Wall Marking",
   "block.ags_modernmarkings.wall_marking_number_dash": "- Wall Marking",
+
+  "block.ags_modernmarkings.wall_marking_arrowleft": "Arrow Left Wall Marking",
+  "block.ags_modernmarkings.wall_marking_arrowright": "Arrow Right Wall Marking",
+  "block.ags_modernmarkings.wall_marking_hazardline_right": "Hazardline right corner Wall Marking",
+  "block.ags_modernmarkings.wall_marking_hazardline_left": "Hazardline left corner Marking",
+  "block.ags_modernmarkings.wall_marking_warning_danger": "Warning Wall Marking",
+  "block.ags_modernmarkings.wall_marking_exit": "Exit Wall Marking",
+
+  "block.ags_modernmarkings.wall_marking_symbol_production": "Production Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_radiation": "Radiation Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_pinch": "Pinch Point Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_frost": "Frost Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_chemical": "Chemical Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_electric": "Electric Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_storage": "Storage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_fire": "Fire Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_magic": "Magic Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_gears": "Gears Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_laser": "Laser Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_fluid": "Fluid Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_mob": "Mob Wall Symbol",
+
+
 
 
 

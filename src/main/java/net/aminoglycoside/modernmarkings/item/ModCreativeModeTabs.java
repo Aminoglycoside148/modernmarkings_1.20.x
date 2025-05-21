@@ -45,6 +45,13 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.FLOOR_MARKING_RED_HAZARDLINE.get());
                         pOutput.accept(ModBlocks.FLOOR_MARKING_WHITEBLACK_HAZARDLINE.get());
 
+                        pOutput.accept(ModBlocks.FLOOR_MARKING_DANGER_YELLOW.get());
+                        pOutput.accept(ModBlocks.FLOOR_MARKING_DANGER_RED.get());
+                        pOutput.accept(ModBlocks.FLOOR_MARKING_EXIT.get());
+                        pOutput.accept(ModBlocks.FLOOR_MARKING_WHITE_LANE_CROSS.get());
+                        pOutput.accept(ModBlocks.FLOOR_MARKING_YELLOW_LANE.get());
+
+
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> WALL_MARKING_TAB = CREATIVE_MODE_TABS.register("wall_markings_tab",
@@ -68,6 +75,33 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_NO.get());
                         pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_NUMERO.get());
                         pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_DASH.get());
+
+                        pOutput.accept(ModBlocks.WALL_MARKING_ARROWLEFT.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_ARROWRIGHT.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_EXIT.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_HAZARDLINE_LEFT.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_HAZARDLINE_RIGHT.get());
+
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_CHEMICAL.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_ELECTRIC.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_FIRE.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_FLUID.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_FROST.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_GEARS.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_LASER.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_MAGIC.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_MOB.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_PINCH.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_PRODUCTION.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_RADIATION.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_STORAGE.get());
+
+                        pOutput.accept(ModBlocks.WALL_MARKING_WARNING_DANGER.get());
+
+
+
+
+
                     }).build());
 
 

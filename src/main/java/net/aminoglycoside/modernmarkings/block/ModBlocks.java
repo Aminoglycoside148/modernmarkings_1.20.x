@@ -146,6 +146,32 @@ public class ModBlocks {
                     .noOcclusion()
                     .noCollission()),"tooltip.ags_modernmarkings.floormarking_yellowhazard");
 
+    public static final RegistryObject <Block> FLOOR_MARKING_DANGER_RED = registerBlock("floor_marking_danger_red",
+            () -> new MarkingFloor(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.floormarkingbasic");
+    public static final RegistryObject <Block> FLOOR_MARKING_DANGER_YELLOW = registerBlock("floor_marking_danger_yellow",
+            () -> new MarkingFloor(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.floormarkingbasic");
+    public static final RegistryObject <Block> FLOOR_MARKING_YELLOW_LANE = registerBlock("floor_marking_yellow_lane",
+            () -> new MarkingFloor(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.floormarkingbasic");
+    public static final RegistryObject <Block> FLOOR_MARKING_WHITE_LANE_CROSS = registerBlock("floor_marking_white_lane_cross",
+            () -> new MarkingFloor(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.floormarkingbasic");
+    public static final RegistryObject <Block> FLOOR_MARKING_EXIT = registerBlock("floor_marking_exit",
+            () -> new MarkingFloor(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.floormarkingbasic");
+
     public static final RegistryObject <Block> WALL_MARKING_NUMBER_0 = registerBlock("wall_marking_number_0",
             () -> new MarkingWall(BlockBehaviour.Properties.of()
                     .sound(SoundType.WOOL)
@@ -206,11 +232,110 @@ public class ModBlocks {
                     .sound(SoundType.WOOL)
                     .noOcclusion()
                     .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+
     public static final RegistryObject <Block> WALL_MARKING_NUMBER_NUMERO = registerBlock("wall_marking_number_numero",
             () -> new MarkingWall(BlockBehaviour.Properties.of()
                     .sound(SoundType.WOOL)
                     .noOcclusion()
                     .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+
+
+    public static final RegistryObject <Block> WALL_MARKING_ARROWLEFT = registerBlock("wall_marking_arrowleft",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_ARROWRIGHT = registerBlock("wall_marking_arrowright",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_EXIT = registerBlock("wall_marking_exit",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_HAZARDLINE_LEFT = registerBlock("wall_marking_hazardline_left",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_HAZARDLINE_RIGHT = registerBlock("wall_marking_hazardline_right",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_SYMBOL_CHEMICAL = registerBlock("wall_marking_symbol_chemical",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_SYMBOL_ELECTRIC = registerBlock("wall_marking_symbol_electric",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_SYMBOL_FLUID = registerBlock("wall_marking_symbol_fluid",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_SYMBOL_FROST = registerBlock("wall_marking_symbol_frost",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_SYMBOL_FIRE = registerBlock("wall_marking_symbol_fire",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_SYMBOL_GEARS = registerBlock("wall_marking_symbol_gears",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_SYMBOL_LASER = registerBlock("wall_marking_symbol_laser",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_SYMBOL_MAGIC = registerBlock("wall_marking_symbol_magic",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_SYMBOL_MOB = registerBlock("wall_marking_symbol_mob",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_SYMBOL_PINCH = registerBlock("wall_marking_symbol_pinch",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_SYMBOL_PRODUCTION = registerBlock("wall_marking_symbol_production",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_SYMBOL_RADIATION = registerBlock("wall_marking_symbol_radiation",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_SYMBOL_STORAGE = registerBlock("wall_marking_symbol_storage",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_WARNING_DANGER = registerBlock("wall_marking_warning_danger",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+
 
 
 
