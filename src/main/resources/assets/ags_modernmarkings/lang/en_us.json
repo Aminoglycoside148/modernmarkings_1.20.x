@@ -46,8 +46,10 @@
   "block.ags_modernmarkings.wall_marking_number_8": "8 Wall Marking",
   "block.ags_modernmarkings.wall_marking_number_9": "9 Wall Marking",
   "block.ags_modernmarkings.wall_marking_number_no": "no. Wall Marking",
-  "block.ags_modernmarkings.wall_marking_number_numero": "numero Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_numero": "Numero Wall Marking",
   "block.ags_modernmarkings.wall_marking_number_dash": "- Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_comma": "Comma Wall Marking",
+  "block.ags_modernmarkings.wall_marking_number_period": "period Wall Marking",
 
   "block.ags_modernmarkings.wall_marking_arrowleft": "Arrow Left Wall Marking",
   "block.ags_modernmarkings.wall_marking_arrowright": "Arrow Right Wall Marking",
@@ -70,6 +72,27 @@
   "block.ags_modernmarkings.wall_marking_symbol_fluid": "Fluid Wall Symbol",
   "block.ags_modernmarkings.wall_marking_symbol_mob": "Mob Wall Symbol",
 
+  "block.ags_modernmarkings.wall_marking_voltage_lv": "Low Voltage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_mv": "Medium Voltage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_hv": "High Voltage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_ev": "Extreme Voltage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_iv": "Insane Voltage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_luv": "Ludicrous Voltage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_zpm": "Zero Point Module Voltage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_uv": "UV Voltage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_uhv": "UHV Voltage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_uev": "UEV Voltage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_uiv": "UIV Voltage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_umv": "UMV Voltage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_uxv": "UXV Voltage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_max": "MAX Voltage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_pert": "per tick Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_eu": "EU Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_rf": "Redstone Flux Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_fe": "Forge Energy Wall Symbol",
+
+
+
 
 
 
@@ -91,7 +114,8 @@
   "tooltip.ags_modernmarkings.floormarking_redhazard": "keep clear for safety/compliance",
   "tooltip.ags_modernmarkings.floormarking_whitehazard": "keep clear for operational purposes",
 
-  "tooltip.ags_modernmarkings.wallmarking_basic": "a wall marking"
+  "tooltip.ags_modernmarkings.wallmarking_basic": "a wall marking",
+  "tooltip.ags_modernmarkings.wallmarking_power": "wall markings for power"
 
 
 

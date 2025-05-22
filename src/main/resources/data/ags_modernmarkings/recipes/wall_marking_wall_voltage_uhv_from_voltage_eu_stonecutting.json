@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "ags_modernmarkings:wall_marking_voltage_eu"
+  },
+  "result": "ags_modernmarkings:wall_marking_voltage_uhv"
+}

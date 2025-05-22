@@ -60,6 +60,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_NO.get());
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_DASH.get());
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_NUMERO.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_COMMA.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_PERIOD.get());
 
         this.dropSelf(ModBlocks.WALL_MARKING_ARROWRIGHT.get());
         this.dropSelf(ModBlocks.WALL_MARKING_ARROWLEFT.get());
@@ -81,6 +83,26 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_RADIATION.get());
         this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_STORAGE.get());
         this.dropSelf(ModBlocks.WALL_MARKING_WARNING_DANGER.get());
+
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_EU.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_EV.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_FE.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_HV.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_IV.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_LUV.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_LV.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_MAX.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_MV.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_PERT.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_RF.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_UEV.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_UHV.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_UIV.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_UMV.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_UV.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_UXV.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_ZPM.get());
+
 
 
 

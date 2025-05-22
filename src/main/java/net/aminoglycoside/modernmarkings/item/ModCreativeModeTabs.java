@@ -75,6 +75,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_NO.get());
                         pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_NUMERO.get());
                         pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_DASH.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_COMMA.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_PERIOD.get());
 
                         pOutput.accept(ModBlocks.WALL_MARKING_ARROWLEFT.get());
                         pOutput.accept(ModBlocks.WALL_MARKING_ARROWRIGHT.get());
@@ -97,6 +99,25 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_STORAGE.get());
 
                         pOutput.accept(ModBlocks.WALL_MARKING_WARNING_DANGER.get());
+
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_EU.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_EV.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_FE.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_HV.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_IV.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_LUV.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_LV.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_MAX.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_MV.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_PERT.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_RF.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_UEV.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_UHV.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_UIV.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_UMV.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_UV.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_UXV.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_ZPM.get());
 
 
 

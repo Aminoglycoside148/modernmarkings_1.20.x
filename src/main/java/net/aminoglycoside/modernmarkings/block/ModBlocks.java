@@ -238,6 +238,16 @@ public class ModBlocks {
                     .sound(SoundType.WOOL)
                     .noOcclusion()
                     .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_PERIOD = registerBlock("wall_marking_number_period",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+    public static final RegistryObject <Block> WALL_MARKING_NUMBER_COMMA = registerBlock("wall_marking_number_comma",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
 
 
     public static final RegistryObject <Block> WALL_MARKING_ARROWLEFT = registerBlock("wall_marking_arrowleft",
@@ -335,6 +345,99 @@ public class ModBlocks {
                     .sound(SoundType.WOOL)
                     .noOcclusion()
                     .noCollission()),"tooltip.ags_modernmarkings.wallmarking_basic");
+
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_EU = registerBlock("wall_marking_voltage_eu",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_EV = registerBlock("wall_marking_voltage_ev",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_FE = registerBlock("wall_marking_voltage_fe",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_HV = registerBlock("wall_marking_voltage_hv",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_IV = registerBlock("wall_marking_voltage_iv",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_LUV = registerBlock("wall_marking_voltage_luv",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_LV = registerBlock("wall_marking_voltage_lv",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_MAX = registerBlock("wall_marking_voltage_max",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_MV = registerBlock("wall_marking_voltage_mv",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_PERT = registerBlock("wall_marking_voltage_pert",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_RF = registerBlock("wall_marking_voltage_rf",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_UEV = registerBlock("wall_marking_voltage_uev",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_UHV = registerBlock("wall_marking_voltage_uhv",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_UIV = registerBlock("wall_marking_voltage_uiv",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_UMV = registerBlock("wall_marking_voltage_umv",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_UV = registerBlock("wall_marking_voltage_uv",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_UXV = registerBlock("wall_marking_voltage_uxv",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_ZPM = registerBlock("wall_marking_voltage_zpm",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+
+
 
 
 
