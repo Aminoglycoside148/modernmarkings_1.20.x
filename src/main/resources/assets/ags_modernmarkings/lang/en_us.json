@@ -21,6 +21,14 @@
   "block.ags_modernmarkings.floor_marking_yellow_singleline": "Yellow Line Floor Marking",
   "block.ags_modernmarkings.floor_marking_red_singleline": "Red Line Floor Marking",
 
+  "block.ags_modernmarkings.floor_marking_black_corner": "Black Corner Floor Marking",
+  "block.ags_modernmarkings.floor_marking_blue_corner": "Blue Corner Floor Marking",
+  "block.ags_modernmarkings.floor_marking_green_corner": "Green Corner Floor Marking",
+  "block.ags_modernmarkings.floor_marking_orange_corner": "Orange Corner Floor Marking",
+  "block.ags_modernmarkings.floor_marking_white_corner": "White Corner Floor Marking",
+  "block.ags_modernmarkings.floor_marking_yellow_corner": "Yellow Corner Floor Marking",
+  "block.ags_modernmarkings.floor_marking_red_corner": "Red Corner Floor Marking",
+
   "block.ags_modernmarkings.floor_marking_yellow_hazardline": "Yellow Hazard Line Floor Marking",
   "block.ags_modernmarkings.floor_marking_red_hazardline": "Red Hazard Line Floor Marking",
   "block.ags_modernmarkings.floor_marking_whiteblack_hazardline": "White Hazard Line Floor Marking",
@@ -51,12 +59,17 @@
   "block.ags_modernmarkings.wall_marking_number_comma": "Comma Wall Marking",
   "block.ags_modernmarkings.wall_marking_number_period": "period Wall Marking",
 
+  "block.ags_modernmarkings.wall_marking_exclamation_mark": "Exclamation Mark Wall Marking",
+  "block.ags_modernmarkings.wall_marking_question_mark": "Question Mark Wall Marking",
+
   "block.ags_modernmarkings.wall_marking_arrowleft": "Arrow Left Wall Marking",
   "block.ags_modernmarkings.wall_marking_arrowright": "Arrow Right Wall Marking",
   "block.ags_modernmarkings.wall_marking_hazardline_right": "Hazardline right corner Wall Marking",
   "block.ags_modernmarkings.wall_marking_hazardline_left": "Hazardline left corner Marking",
   "block.ags_modernmarkings.wall_marking_warning_danger": "Warning Wall Marking",
   "block.ags_modernmarkings.wall_marking_exit": "Exit Wall Marking",
+
+  "block.ags_modernmarkings.wall_marking_hazard_diamond": "Hazard Diamond Wall Marking",
 
   "block.ags_modernmarkings.wall_marking_symbol_production": "Production Wall Symbol",
   "block.ags_modernmarkings.wall_marking_symbol_radiation": "Radiation Wall Symbol",
@@ -71,6 +84,22 @@
   "block.ags_modernmarkings.wall_marking_symbol_laser": "Laser Wall Symbol",
   "block.ags_modernmarkings.wall_marking_symbol_fluid": "Fluid Wall Symbol",
   "block.ags_modernmarkings.wall_marking_symbol_mob": "Mob Wall Symbol",
+
+  "block.ags_modernmarkings.wall_marking_symbol_yellow_production": "Yellow Production Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_yellow_radiation": "Yellow Radiation Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_yellow_pinch": "Yellow Pinch Point Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_yellow_frost": "Yellow Frost Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_yellow_chemical": "Yellow Chemical Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_yellow_electric": "Yellow Electric Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_yellow_storage": "Yellow Storage Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_yellow_fire": "Yellow Fire Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_yellow_magic": "Yellow Magic Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_yellow_gears": "Yellow Gears Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_yellow_laser": "Yellow Laser Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_yellow_fluid": "Yellow Fluid Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_symbol_yellow_mob": "Yellow Mob Wall Symbol",
+
+  "block.ags_modernmarkings.wall_marking_symbol_jeo": "Just Enough Opinions podcast Symbol",
 
   "block.ags_modernmarkings.wall_marking_voltage_lv": "Low Voltage Wall Symbol",
   "block.ags_modernmarkings.wall_marking_voltage_mv": "Medium Voltage Wall Symbol",
@@ -115,7 +144,9 @@
   "tooltip.ags_modernmarkings.floormarking_whitehazard": "keep clear for operational purposes",
 
   "tooltip.ags_modernmarkings.wallmarking_basic": "a wall marking",
-  "tooltip.ags_modernmarkings.wallmarking_power": "wall markings for power"
+  "tooltip.ags_modernmarkings.wallmarking_power": "wall markings for power",
+  "tooltip.ags_modernmarkings.wallmarking_jeo": "product placement!",
+  "tooltip.ags_modernmarkings.wallmarking_diamond": "NFPA 704, used to notify the risk of hazardous materials."
 
 
 

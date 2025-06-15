@@ -46,6 +46,14 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.FLOOR_MARKING_YELLOW_LANE.get());
         this.dropSelf(ModBlocks.FLOOR_MARKING_WHITE_LANE_CROSS.get());
 
+        this.dropSelf(ModBlocks.FLOOR_MARKING_BLACK_CORNER.get());
+        this.dropSelf(ModBlocks.FLOOR_MARKING_BLUE_CORNER.get());
+        this.dropSelf(ModBlocks.FLOOR_MARKING_GREEN_CORNER.get());
+        this.dropSelf(ModBlocks.FLOOR_MARKING_ORANGE_CORNER.get());
+        this.dropSelf(ModBlocks.FLOOR_MARKING_WHITE_CORNER.get());
+        this.dropSelf(ModBlocks.FLOOR_MARKING_YELLOW_CORNER.get());
+        this.dropSelf(ModBlocks.FLOOR_MARKING_RED_CORNER.get());
+
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_0.get());
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_1.get());
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_2.get());
@@ -62,6 +70,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_NUMERO.get());
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_COMMA.get());
         this.dropSelf(ModBlocks.WALL_MARKING_NUMBER_PERIOD.get());
+
+        this.dropSelf(ModBlocks.WALL_MARKING_QUESTION_MARK.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_EXCLAMATION_MARK.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_HAZARD_DIAMOND.get());
 
         this.dropSelf(ModBlocks.WALL_MARKING_ARROWRIGHT.get());
         this.dropSelf(ModBlocks.WALL_MARKING_ARROWLEFT.get());
@@ -82,6 +94,23 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_PRODUCTION.get());
         this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_RADIATION.get());
         this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_STORAGE.get());
+
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_JEO.get());
+
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_CHEMICAL.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_ELECTRIC.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_FIRE.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_FLUID.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_FROST.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_GEARS.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_LASER.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_MAGIC.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_MOB.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_PINCH.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_PRODUCTION.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_RADIATION.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_STORAGE.get());
+
         this.dropSelf(ModBlocks.WALL_MARKING_WARNING_DANGER.get());
 
         this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_EU.get());

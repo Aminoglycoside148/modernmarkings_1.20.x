@@ -51,6 +51,16 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.FLOOR_MARKING_WHITE_LANE_CROSS.get());
                         pOutput.accept(ModBlocks.FLOOR_MARKING_YELLOW_LANE.get());
 
+                        pOutput.accept(ModBlocks.FLOOR_MARKING_BLACK_CORNER.get());
+                        pOutput.accept(ModBlocks.FLOOR_MARKING_BLUE_CORNER.get());
+                        pOutput.accept(ModBlocks.FLOOR_MARKING_GREEN_CORNER.get());
+                        pOutput.accept(ModBlocks.FLOOR_MARKING_ORANGE_CORNER.get());
+                        pOutput.accept(ModBlocks.FLOOR_MARKING_WHITE_CORNER.get());
+                        pOutput.accept(ModBlocks.FLOOR_MARKING_YELLOW_CORNER.get());
+                        pOutput.accept(ModBlocks.FLOOR_MARKING_RED_CORNER.get());
+
+
+
 
                     }).build());
 
@@ -78,6 +88,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_COMMA.get());
                         pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_PERIOD.get());
 
+                        pOutput.accept(ModBlocks.WALL_MARKING_EXCLAMATION_MARK.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_QUESTION_MARK.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_HAZARD_DIAMOND.get());
+
                         pOutput.accept(ModBlocks.WALL_MARKING_ARROWLEFT.get());
                         pOutput.accept(ModBlocks.WALL_MARKING_ARROWRIGHT.get());
                         pOutput.accept(ModBlocks.WALL_MARKING_EXIT.get());
@@ -97,6 +111,22 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_PRODUCTION.get());
                         pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_RADIATION.get());
                         pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_STORAGE.get());
+
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_CHEMICAL.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_ELECTRIC.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_FIRE.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_FLUID.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_FROST.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_GEARS.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_LASER.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_MAGIC.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_MOB.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_PINCH.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_PRODUCTION.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_RADIATION.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_YELLOW_STORAGE.get());
+
+                        pOutput.accept(ModBlocks.WALL_MARKING_SYMBOL_JEO.get());
 
                         pOutput.accept(ModBlocks.WALL_MARKING_WARNING_DANGER.get());
 
