@@ -132,6 +132,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_UXV.get());
         this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_ZPM.get());
 
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_ULV.get());
+        this.dropSelf(ModBlocks.WALL_MARKING_VOLTAGE_STEAM.get());
+
 
 
 

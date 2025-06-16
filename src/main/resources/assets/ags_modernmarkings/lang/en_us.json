@@ -101,6 +101,8 @@
 
   "block.ags_modernmarkings.wall_marking_symbol_jeo": "Just Enough Opinions podcast Symbol",
 
+  "block.ags_modernmarkings.wall_marking_voltage_steam": "Steam Tier Wall Symbol",
+  "block.ags_modernmarkings.wall_marking_voltage_ulv": "ULV Voltage Wall Symbol",
   "block.ags_modernmarkings.wall_marking_voltage_lv": "Low Voltage Wall Symbol",
   "block.ags_modernmarkings.wall_marking_voltage_mv": "Medium Voltage Wall Symbol",
   "block.ags_modernmarkings.wall_marking_voltage_hv": "High Voltage Wall Symbol",

@@ -574,6 +574,18 @@ public class ModBlocks {
                     .noOcclusion()
                     .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
 
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_ULV = registerBlock("wall_marking_voltage_ulv",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+
+    public static final RegistryObject <Block> WALL_MARKING_VOLTAGE_STEAM = registerBlock("wall_marking_voltage_steam",
+            () -> new MarkingWall(BlockBehaviour.Properties.of()
+                    .sound(SoundType.WOOL)
+                    .noOcclusion()
+                    .noCollission()),"tooltip.ags_modernmarkings.wallmarking_power");
+
 
 
 

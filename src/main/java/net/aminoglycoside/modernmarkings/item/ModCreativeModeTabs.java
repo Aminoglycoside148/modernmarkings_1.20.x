@@ -149,6 +149,9 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_UXV.get());
                         pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_ZPM.get());
 
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_ULV.get());
+                        pOutput.accept(ModBlocks.WALL_MARKING_VOLTAGE_STEAM.get());
+
 
 
 
