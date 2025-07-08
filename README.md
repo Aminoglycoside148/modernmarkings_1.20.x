@@ -10,7 +10,7 @@ https://modrinth.com/mod/modernmarkings
 https://github.com/Aminoglycoside148/ModernMarkings_1.12.2_Rewrite_3
 
 1.7.10 version -> 
-https://github.com/jurrejelle/ModernMarkings/tree/master
+https://github.com/jurrejelle/ModernMarkings/tree/master or 
 https://github.com/GTNewHorizons/ModernMarkings
 
 the 1.7.10 version is being maintained by the GTNH developer team, and may contain content not currently in this version.
