@@ -16,10 +16,9 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> FLOOR_MARKING_TAB = CREATIVE_MODE_TABS.register("floor_markings_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModItems.CHALK.get()))
+                    .icon(() -> new ItemStack(ModBlocks.FLOOR_MARKING_WHITE_SQUARE.get()))
                     .title(Component.translatable("creativetab.floor_markings"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.CHALK.get());
                         pOutput.accept(ModBlocks.FLOOR_MARKING_NOSTEP.get());
                         pOutput.accept(ModBlocks.FLOOR_MARKING_WHITE_ARROW.get());
                         pOutput.accept(ModBlocks.FLOOR_MARKING_WHITE_LANE.get());
@@ -66,11 +65,9 @@ public class ModCreativeModeTabs {
 
     public static final RegistryObject<CreativeModeTab> WALL_MARKING_TAB = CREATIVE_MODE_TABS.register("wall_markings_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(ModItems.CHALK.get()))
+                    .icon(() -> new ItemStack(ModBlocks.WALL_MARKING_NUMBER_0.get()))
                     .title(Component.translatable("creativetab.wall_markings"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.CHALK.get());
-
                         pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_0.get());
                         pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_1.get());
                         pOutput.accept(ModBlocks.WALL_MARKING_NUMBER_2.get());
